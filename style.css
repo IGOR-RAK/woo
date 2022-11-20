@@ -1,0 +1,20 @@
+/*
+Theme Name: Woo
+ */
+ .second-column{
+    background-color: rgb(25, 196, 53);
+    color:aliceblue    
+ }
+
+ .brand{
+   background-color: brown;
+ }
+
+ .main-menu ul{
+  display: flex;
+  column-gap: 10px;
+ }
+
+ .main-menu ul li{
+   display: inline;
+  }
