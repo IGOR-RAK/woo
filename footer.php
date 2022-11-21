@@ -1,4 +1,4 @@
-    <footer>       
+    <footer class='bg-dark text-white'>       
         <section class="footer-widgets col">
             <div class="container">
                 <div class="row">
