@@ -5,6 +5,9 @@
                     <div class="col">
                         <?php wp_nav_menu( ['theme_location'  => 'woo_main_menu',] ); ?>
                     </div>
+                    <div class="col">
+                        <?php wp_nav_menu( ['theme_location'  => 'woo_movies_menu',] ); ?>
+                    </div>
                 </div>
             </div>   
         </section>
