@@ -1,20 +1,30 @@
 /*
 Theme Name: Woo
  */
- .second-column{
-    background-color: rgb(25, 196, 53);
-    color:aliceblue    
- }
+.second-column {
+  background-color: rgb(25, 196, 53);
+  color: aliceblue;
+}
 
- .brand{
-   background-color: brown;
- }
+.brand {
+  background-color: brown;
+}
 
- .main-menu ul{
+.main-menu ul {
   display: flex;
   column-gap: 10px;
- }
+}
 
- .main-menu ul li{
-   display: inline;
-  }
+.main-menu ul li {
+  display: inline;
+}
+
+/* General */
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
