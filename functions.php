@@ -54,7 +54,7 @@ function custom_post_type() {
 					* is like Posts.
 					*/
 					'hierarchical'        => false,
-					'public'              => true,
+					'public'              => false,
 					'show_ui'             => true,
 					'show_in_menu'        => true,
 					'show_in_nav_menus'   => true,
@@ -140,10 +140,22 @@ add_action( 'after_setup_theme', function(){
 		'woo_main_menu' => 'Woo Main Menu',
 		'woo_movies_menu' => 'Woo Movies Menu',
 	] );
+
+	add_theme_support( 'woocommerce', array(
+		'thumbnail_image_width' => 255,
+		'single_image_width'    => 255,
+
+		'product_grid'          => array(
+				'default_rows'    => 5,
+				'min_rows'        => 5,
+				'max_rows'        => 5,
+				'default_columns' => 3,
+				'min_columns'     => 3,
+				'max_columns'     => 4,
+		),
+) );
+
 } )
-
-
-
 ?>
 
 
